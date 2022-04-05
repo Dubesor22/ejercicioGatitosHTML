@@ -7,23 +7,55 @@
     <title>Document</title>
   </head>
   <body style="background-color: rgb(146, 183, 146)">
+    <header>
+      <!-- navegacion principal -->
+      <nav class="navbar" align="center">
+        <!-- links a las paginas -->
+        <a href="/ejerciciosTablasHTML/index.html">INDICE</a>
+        <a href="/ejercicioGatitosHTML/gatitos.html">GATITOS</a>
+        <br />
+        <br />
+        <!-- links a las secciones -->
+        <a href="#img">Ve a las Imagenes</a>
+        <a href="#vid">Ve a los Videos</a>
+        <a href="#sound">Ve a las Sonidos</a>
+      </nav>
+    </header>
     <h1>Gatitos</h1>
+    <br />
     <section>
-      <h2>Imagenes</h2>
+      <h2 id="img">Imagenes</h2>
       <img
         src="https://cdn.pixabay.com/photo/2017/12/11/15/34/lion-3012515_1280.jpg"
-        width="300"
-        height="240"
+        width="400"
+        height="340"
       />
       <img
         src="https://cdn.pixabay.com/photo/2021/10/19/10/56/cat-6723256_1280.jpg"
-        width="300"
-        height="240"
+        width="400"
+        height="340"
       />
     </section>
+    <!-- separo las secciones para que se vea como funciona la busqueda de secciones con el link -->
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
 
     <section>
-      <h2>Video</h2>
+      <h2 id="vid">Video</h2>
       <video width="300" height="240" controls="" autoplay="true" muted>
         <source
           src="/ejercicioGatitosHTML/videos/Catvideo.mp4"
@@ -38,11 +70,26 @@
         />
       </video>
     </section>
+    <!-- separo las secciones para que se vea como funciona la busqueda de secciones con el link -->
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
     <section>
-      <h2>Sonido</h2>
+      <h2 id="sound">Sonido</h2>
       <audio controls>
-        <source src="" type="audio/ogg" />
-        <source src="horse.mp3" type="audio/mpeg" />
+        <source
+          src="/ejercicioGatitosHTML/sounds/angry-beast-6172.mp3"
+          type="audio/mpeg"
+        />
         Your browser does not support the audio element.
       </audio>
     </section>
